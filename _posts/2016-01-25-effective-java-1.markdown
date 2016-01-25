@@ -33,7 +33,6 @@ BigInteger.probablePrime
 `通过接口引用被返回的对象`<br>
 `服务提供者框架`
 
-
 4. 在创建参数化类型实例的时候，使代码变得更加简洁
 {% highlight java %}
 Map<String, List<String>> m = new HashMap<String, List<String>>();
