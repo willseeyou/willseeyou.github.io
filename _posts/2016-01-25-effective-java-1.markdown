@@ -24,18 +24,15 @@ BigInteger(int, int Random)
 BigInteger.probablePrime
 {% endhighlight %}
 
-* 不必在每次调用的时候都创建一个新对象:避免创建不必要的重复对象
-{% highlight java %}
-实例受控的类：instance-controlled
-单例Singleton模式的实现
-{% endhighlight %}
+* 不必在每次调用的时候都创建一个新对象:避免创建不必要的重复对象<br>
+`实例受控的类：instance-controlled`<br>
+`单例Singleton模式的实现`
 
-* 返回原返回类型的任何子类型的对象:选择返回对象的类有更大的灵活性
-{% highlight java %}
-隐藏实现类，使API更简洁
-通过接口引用被返回的对象
-服务提供者框架
-{% endhighlight %}
+* 返回原返回类型的任何子类型的对象:选择返回对象的类有更大的灵活性<br>
+`隐藏实现类，使API更简洁`<br>
+`通过接口引用被返回的对象`<br>
+`服务提供者框架`
+
 
 * 在创建参数化类型实例的时候，使代码变得更加简洁
 {% highlight java %}
@@ -54,12 +51,11 @@ Map<String, List<String>> m = HashMap.newInstance();
 ### 静态工厂方法的缺点：
 * 类如果不含公有的或者受保护的构造器，就不能被子类化
 * 与其他的静态方法实际上没有任何区别(API文档中无法明确表示静态工厂方法)
-{% highlight java %}
-静态工厂方法的惯用名称:
-valueOf
-of
-getInstance
-newInstance
-getType
-newType
-{% endhighlight %}
+
+### 静态工厂方法的惯用名称:
+`valueOf`
+`of`
+`getInstance`
+`newInstance`
+`getType`
+`newType`
