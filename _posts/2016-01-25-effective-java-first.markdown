@@ -25,13 +25,13 @@ BigInteger.probablePrime
 {% endhighlight %}
 
 * 不必在每次调用的时候都创建一个新对象:避免创建不必要的重复对象
-{% highlight code %}
+{% highlight java %}
 实例受控的类：instance-controlled
 单例Singleton模式的实现
 {% endhighlight %}
 
 * 返回原返回类型的任何子类型的对象:选择返回对象的类有更大的灵活性
-{% highlight code %}
+{% highlight java %}
 隐藏实现类，使API更简洁
 通过接口引用被返回的对象
 服务提供者框架
