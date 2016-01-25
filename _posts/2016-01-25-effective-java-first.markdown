@@ -16,7 +16,7 @@ public static Boolean valueOf(boolean b) {
 }
 {% endhighlight %}
 
-### 使用静态工厂方法的优势：
+### 静态工厂方法的优点：
 
 * 静态工厂方法有名称:代码易于阅读
 {% highlight java %}
