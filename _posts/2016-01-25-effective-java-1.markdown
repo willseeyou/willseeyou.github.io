@@ -18,11 +18,9 @@ public static Boolean valueOf(boolean b) {
 
 ### 静态工厂方法的优点：
 
-1. 静态工厂方法有名称:代码易于阅读
-{% highlight java %}
-BigInteger(int, int Random)
-BigInteger.probablePrime
-{% endhighlight %}
+1. 静态工厂方法有名称:代码易于阅读<br>
+`BigInteger(int, int Random)`<br>
+`BigInteger.probablePrime`
 
 2. 不必在每次调用的时候都创建一个新对象:避免创建不必要的重复对象<br>
 `实例受控的类：instance-controlled`<br>
