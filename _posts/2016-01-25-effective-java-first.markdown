@@ -54,7 +54,7 @@ Map<String, List<String>> m = HashMap.newInstance();
 ### 静态工厂方法的缺点：
 * 类如果不含公有的或者受保护的构造器，就不能被子类化
 * 与其他的静态方法实际上没有任何区别(API文档中无法明确表示静态工厂方法)
-{% highlight code %}
+{% highlight java %}
 静态工厂方法的惯用名称:
 valueOf
 of
