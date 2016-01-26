@@ -11,7 +11,7 @@ categories: redis
 
 * The latest version of Redis: [Get Latest Redis](http://redis.io/download)
 
-{% highlight shell %}
+{% highlight ruby %}
 wget http://download.redis.io/releases/redis-3.0.6.tar.gz
 tar xzf redis-3.0.6.tar.gz
 cd redis-3.0.6
@@ -32,7 +32,7 @@ make
 
 ### Values represent the actual data associated with the key.
 * Redis treats values as a `byte array` and doesn't care what they are.
-{% highlight shell %}
+{% highlight ruby %}
 set users:hongwei '{"name":"hongwei", "planet":"earth","likes":["eating"]}'
 
 get users:hongwei
