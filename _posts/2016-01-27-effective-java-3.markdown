@@ -45,3 +45,5 @@ public enum Elvis {
 {% endhighlight %}
 
 ### 单元素的枚举类型已经成为实现Singleton的最佳方法
+
+[Wonderful Post](http://linxiaobai.github.io/2015/01/21/java%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E4%B9%8Bsingleton/)
