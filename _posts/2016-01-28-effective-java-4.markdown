@@ -8,7 +8,6 @@ categories: effective java
 
 企图将类做成抽象类来强制该类不可实例化是行不通的：子类化
 
-
 {% highlight java %}
 // Noninstantiable utility class
 public class UtilityClass {
