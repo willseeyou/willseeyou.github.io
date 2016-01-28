@@ -57,7 +57,7 @@ categories: android training
 * Define UI in XML using a hierarchy of UI elements
 * Layouts are subclasses of the ViewGroup
 
-### 创建线性布局 Linear Layout
+### 创建线性布局 [Linear Layout](http://developer.android.com/intl/zh-cn/guide/topics/ui/declaring-layout.html)
 * 修改content_my.xml为：
 
 {% highlight xml %}
@@ -69,4 +69,75 @@ categories: android training
     android:orientation="horizontal"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:showIn="@layout/activity_my">
+{% endhighlight %}
+
+### 添加 Text Field
+
+{% highlight xml %}
+<EditText android:id="@+id/edit_message"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:hint="@string/edit_message" />
+{% endhighlight %}
+
+### 添加 Button
+
+{% highlight xml %}
+<Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_send"/>
+{% endhighlight %}
+
+![Button](/images/build-your-first-app/first-activity-button.png)
+
+### Make the Input Box Fill in the Screen Width
+
+{% highlight xml %}
+android:layout_weight="1"
+android:layout_width="0dp"
+{% endhighlight %}
+
+![Input Box](/images/build-your-first-app/first-activity-inputbox.png)
+
+### 启动另一个Activity
+* 为Button添加android:onClick属性
+
+{% highlight xml %}
+<Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_send"
+        android:onClick="sendMessage" />
+{% endhighlight %}
+
+* 在MyActivity.java中添加sendMessage方法
+
+{% highlight java %}
+public void sendMessage(View view) {
+  // Do something in response to button
+}
+{% endhighlight %}
+
+`public` `void` `参数唯一（View类型，代表被点击的视图）`
+
+### 创建Intent
+
+{% highlight java %}
+Intent intent = new Intent(this, DisplayMessageActivity.class);
+EditText editText = (EditText) findViewById(R.id.edit_message);
+String message = editText.getText().toString();
+intent.putExtra(EXTRA_MESSAGE, message);
+startActivity(intent);
+{% endhighlight %}
+
+
+### 创建DisplayMessageActivity
+![Create Second Activity](/images/build-your-first-app/create-second-activity.png)
+
+### 接收Intent中的消息
+
+{% highlight java %}
+Intent intent = getIntent();
+String message = intent.getStringExtra(MyActivity.EXTRA_MESSAGE);
 {% endhighlight %}
