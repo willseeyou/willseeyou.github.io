@@ -10,11 +10,11 @@ categories: effective java
 2. 静态工厂方法 `static factory method`
 
 Boolean简单示例：
-{% highlight java %}
+```java
 public static Boolean valueOf(boolean b) {
   return b ? Boolean.TRUE : Boolean.FALSE;
 }
-{% endhighlight %}
+```
 
 ### 静态工厂方法的优点：
 
@@ -32,7 +32,7 @@ public static Boolean valueOf(boolean b) {
 `服务提供者框架`
 
 4. 在创建参数化类型实例的时候，使代码变得更加简洁
-{% highlight java %}
+```java
 Map<String, List<String>> m = new HashMap<String, List<String>>();
 // Java 1.7及之后的版本编译器已经能推断出类型参数
 Map<String, List<String>> m = new HashMap<>();
@@ -43,7 +43,7 @@ public static <K, V> HashMap<K, V> newInstance() {
 }
 
 Map<String, List<String>> m = HashMap.newInstance();
-{% endhighlight %}
+```
 
 ### 静态工厂方法的缺点：
 1. 类如果不含公有的或者受保护的构造器，就不能被子类化
