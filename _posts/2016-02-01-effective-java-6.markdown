@@ -6,7 +6,7 @@ categories: effective java
 ---
 ### 内存泄漏
 
-{% highlight java %}
+```java
 public class Stack {
   private Object[] elements;
   private int size = 0;
@@ -33,14 +33,14 @@ public class Stack {
     }
   }
 }
-{% endhighlight %}
+```
 
 `栈内维护对象的过期引用（obsolete reference），不会被GC回收`<br>
 `无意识的对象保持（unintentional object retention）`
 
 ### 消除内存泄漏
 
-{% highlight java %}
+```java
 public Object pop() {
   if (size == 0)
     throw new EmptyStackException();
@@ -48,7 +48,7 @@ public Object pop() {
   elements[size] = null; //消除过期引用
   return result;
 }
-{% endhighlight %}
+```
 
 ### 清空对象引用应该是一种例外，而不是一种规范行为
 `消除过期引用最好的方法是让包含该引用的变量结束其生命周期`
