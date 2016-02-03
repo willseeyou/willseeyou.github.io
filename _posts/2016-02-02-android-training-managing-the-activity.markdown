@@ -151,3 +151,24 @@ protected void onRestart() {
   super.onRestart();
 }
 ```
+
+### 重新创建Activity
+* 被系统用于恢复之前状态而保存的数据被叫做"instance state"
+* 默认情况下，系统使用Bundle保存每一个View对象中的信息
+* 跳转到其他Activity或是点击Home键会执行onSaveInstanceState
+![basic-lifecycle-savestate](/images/manage-activity/basic-lifecycle-savestate.png)
+
+#### 保存Activity状态
+```java
+static final String STATE_SCORE = "playerScore";
+static final String STATE_LEVEL = "playerLevel";
+
+@Override
+public void onSaveInstanceState(Bundle savedInstanceState) {
+  // Save the user's current game state
+  savedInstanceState.putInt(STATE_SCORE, mCurrentScore);
+  savedInstanceState.putInt(STATE_LEVEL, mCurrentLevel);
+
+  super.onSaveInstanceState(savedInstanceState);
+}
+```
