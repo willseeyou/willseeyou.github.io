@@ -16,4 +16,5 @@ categories: operating system
 4. 循环等待条件：若干进程之间形成一种头尾相接的循环等待资源关系
 
 ### 哲学家就餐问题
-[Wikipedia:哲学家就餐问题](https://zh.wikipedia.org/zh-cn/%E5%93%B2%E5%AD%A6%E5%AE%B6%E5%B0%B1%E9%A4%90%E9%97%AE%E9%A2%98)
+[Wikipedia:哲学家就餐问题](https://zh.wikipedia.org/zh-cn/%E5%93%B2%E5%AD%A6%E5%AE%B6%E5%B0%B1%E9%A4%90%E9%97%AE%E9%A2%98)<br>
+[CSDN:从哲学家就餐问题看死锁现象](http://blog.csdn.net/acm_lkl/article/details/50625777)
