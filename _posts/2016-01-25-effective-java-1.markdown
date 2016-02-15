@@ -10,6 +10,7 @@ categories: effective java
 2. 静态工厂方法 `static factory method`
 
 Boolean简单示例：
+
 ~~~java
 public static Boolean valueOf(boolean b) {
   return b ? Boolean.TRUE : Boolean.FALSE;
