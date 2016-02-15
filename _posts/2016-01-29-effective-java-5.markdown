@@ -13,7 +13,7 @@ categories: effective java
 
 ### 重用已知不会被修改的可变对象
 
-```java
+~~~java
 public class Person {
     private final Date birthDate;
 
@@ -28,9 +28,9 @@ public class Person {
                 birthDate.compareTo(boomEnd) < 0;
     }
 }
-```
+~~~
 
-```java
+~~~java
 public class Person {
     private final Date birthDate;
 
@@ -51,13 +51,13 @@ public class Person {
                 birthDate.compareTo(BOOM_END) < 0;
     }
 }
-```
+~~~
 
 ### 延迟初始化 `Lazy Initializing`
 
 ### 优先使用基本类型而不是自动装箱类型
 
-```java
+~~~java
 public static void main(String[] args) {
   Long sum = 0L;
   for (long i = 0; i < Integer.MAX_VALUE; i++) {
@@ -65,6 +65,6 @@ public static void main(String[] args) {
   }
   System.out.println(sum);
 }
-```
+~~~
 
 ### 对象池（Object Pool）：重量级对象 `数据库连接池`

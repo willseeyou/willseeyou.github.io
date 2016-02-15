@@ -19,21 +19,22 @@ categories: android training
 `onCreate()` -> `onStart()` -> `onResume()`
 
 #### 指定程序首次启动Activity
-```xml
+
+~~~xml
 <activity android:name=".MainActivity" android:label="@string/app_name">
   <intent-filter>
     <action android:name="android.intent.action.MAIN" />
     <action android:name="android.intent.category.LAUNCHER" />
   </intent-filter>
 </activity>
-```
+~~~
 
 #### 创建一个新的实例
 * 系统会调用Activity中的onCreate()方法创建实例
 * 在onCreate()方法中定义UI及实例化类成员变量
 * onCreate()中尽量少做事情
 
-```java
+~~~java
 TextView mTextView; // 用于布局中的成员变量
 
 @Override
@@ -52,12 +53,14 @@ public void onCreate(Bundle savedInstanceState) {
     actionBar.setHomeButtonEnabled(false);
   }
 }
-```
+~~~
+
 ![basic-lifecycle-create](/images/manage-activity/basic-lifecycle-create.png)
 
 #### 销毁Activity
 `如果Activity含有在onCreate调用时创建的后台线程，或者其他导致内存泄漏的资源，需要在onDestroy中进行资源清理，杀死后台线程`
-```java
+
+~~~java
 @Override
 public void onDestroy() {
   super.onDestroy();
@@ -65,7 +68,7 @@ public void onDestroy() {
   // Stop method tracing that the activity started during onCreate()
   android.os.Debug.stopMethodTracing();
 }
-```
+~~~
 
 ### 暂停与恢复Activity
 ![basic-lifecycle-paused](/images/manage-activity/basic-lifecycle-paused.png)
@@ -75,7 +78,7 @@ onPause应该做的事：
 * 提交在用户离开时期待保存的内容（邮件草稿）
 * 释放系统资源，如broadcast receiver, sensors，或其他影响电量的资源
 
-```java
+~~~java
 @Override
 public void onPause() {
   super.onPause();
@@ -86,7 +89,7 @@ public void onPause() {
     mCamera = null;
   }
 }
-```
+~~~
 
 onPause不应该做的事：
 * CPU-intensive:写数据到DB，需要放到onStop()中做
@@ -94,7 +97,7 @@ onPause不应该做的事：
 
 `Activity处于暂停状态时，Activity实例是驻留在内存中的，并且在activity恢复的时候重新调用，不需要重新初始化组件`
 
-```java
+~~~java
 @Override
 public void onResume() {
   super.onResume();
@@ -103,7 +106,7 @@ public void onResume() {
     initializeCamera();
   }
 }
-```
+~~~
 
 ### 停止与重启Activity
 使用场合：
@@ -115,7 +118,7 @@ public void onResume() {
 
 `需要使用onStop()释放资源` `在onStop()中执行CPU intensive的操作，不要在onPuase()中`
 
-```java
+~~~java
 @Override
 protected void onStop() {
   super.onStop();
@@ -131,9 +134,9 @@ protected void onStop() {
     null
   );
 }
-```
+~~~
 
-```java
+~~~java
 @Override
 protected void onStart() {
   super.onStart();
@@ -150,7 +153,7 @@ protected void onStart() {
 protected void onRestart() {
   super.onRestart();
 }
-```
+~~~
 
 ### 重新创建Activity
 * 被系统用于恢复之前状态而保存的数据被叫做"instance state"
@@ -159,7 +162,8 @@ protected void onRestart() {
 ![basic-lifecycle-savestate](/images/manage-activity/basic-lifecycle-savestate.png)
 
 #### 保存Activity状态
-```java
+
+~~~java
 static final String STATE_SCORE = "playerScore";
 static final String STATE_LEVEL = "playerLevel";
 
@@ -171,4 +175,4 @@ public void onSaveInstanceState(Bundle savedInstanceState) {
 
   super.onSaveInstanceState(savedInstanceState);
 }
-```
+~~~

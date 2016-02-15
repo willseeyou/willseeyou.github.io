@@ -10,7 +10,7 @@ categories: effective java
 * 使用终结方法有严重的性能损失
 * 显式终结方法：`InputStream` `OutputStream` `java.sql.Connection` close
 
-```java
+~~~java
 Foo foo = new Foo(...);
 try {
   // Do what must be down with foo
@@ -18,4 +18,4 @@ try {
 } finally {
   foo.terminate(); //Explicite termination method
 }
-```
+~~~

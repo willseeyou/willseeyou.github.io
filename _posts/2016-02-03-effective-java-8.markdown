@@ -12,12 +12,13 @@ Object所有的非final方法都有明确的通用约定（general contract）<b
 * 不关心是否提供了“逻辑相等”的测试功能
 * 超类已经覆盖了equals，从超类继承过来的行为对于子类也是合适的: `Set->AbstractSet` `List->AbstractList` `Map->AbstractMap`
 * 类是私有的或是包级私有的，可以确定它的equals方法永远不会被调用
-```java
+
+~~~java
 @Override
 public boolean equals(Object o) {
   throw new AssertionError(); // Method is never called
 }
-```
+~~~
 
 ### 何时应覆盖Object.equals
 * 类具有特有的逻辑相等概念
@@ -34,7 +35,7 @@ public boolean equals(Object o) {
 
 `没有哪个类是孤立的 --- John Donne`
 
-```java
+~~~java
 // Broken - violates symmetry!
 public final class CaseInsensitiveString {
   private final String s;
@@ -54,22 +55,22 @@ public final class CaseInsensitiveString {
       return s.equalsIgnoreCase((String) o);
   }
 }
-```
+~~~
 
-```java
+~~~java
 CaseInsensitiveString cis = new CaseInsensitiveString("Polish");
 String s = "polish";
 // cis.equals(s)返回true
 // s.equals(cis)返回false
-```
+~~~
 
-```java
+~~~java
 @Override
 public boolean equals(Object o) {
   return o instanceof CaseInsensitiveString &&
     ((CaseInsensitiveString) o).s.equalsIgnoreCase(s);
 }
-```
+~~~
 
 #### 复合优先于继承
 `java.sql.Timestamp扩展了java.util.Date，违反了对称性，不要混合使用Date和Timestamp`
