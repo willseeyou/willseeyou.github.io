@@ -6,7 +6,7 @@ categories: effective java
 ---
 ### Singleton指仅仅被实例化一次的类
 
-```java
+~~~java
 public class Elvis {
   public static final Elvis INSTANCE = new Elvis();
   private Elvis() {
@@ -17,9 +17,9 @@ public class Elvis {
     ...
   }
 }
-```
+~~~
 
-```java
+~~~java
 public class Elvis {
   private static final Elvis INSTANCE = new Elvis();
   private Elvis() {
@@ -32,17 +32,18 @@ public class Elvis {
     ...
   }
 }
-```
+~~~
 
 ### 单元素枚举类型更加简洁，提供了序列化机制，绝对防止多次实例化
-```java
+
+~~~java
 public enum Elvis {
   INSTANCE;
   public void leaveTheBuilding() {
     ...
   }
 }
-```
+~~~
 
 ### 单元素的枚举类型已经成为实现Singleton的最佳方法
 
