@@ -38,5 +38,5 @@ ALTER USER user_name ACCOUNT UNLOCK;
 SEELCT USERNAME, ACCOUNT_STATUS FROM DBA_USERS;
 ~~~
 
-[Reference: ORA-28001: The password has expired](https://hecpv.wordpress.com/2014/10/16/how-to-solve-ora-28001-the-password-has-expired/)
+[Reference: ORA-28001: The password has expired](https://hecpv.wordpress.com/2014/10/16/how-to-solve-ora-28001-the-password-has-expired/)<br>
 [Reference: Stackoverflow](http://stackoverflow.com/questions/16870466/change-password-in-sql-developer-after-ora-28001-the-password-has-expired)
