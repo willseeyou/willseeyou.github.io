@@ -15,5 +15,5 @@ url: "http://willseeyou.github.io" # the base hostname & protocol for your site
 github_username: willseeyou
 
 # Build settings
-# markdown: kramdown
-markdown: redcarpet
+markdown: kramdown
+# markdown: redcarpet
