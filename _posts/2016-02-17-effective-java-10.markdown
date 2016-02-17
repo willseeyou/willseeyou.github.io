@@ -9,4 +9,5 @@ categories: effective java
 * 建议所有的子类都覆盖这个方法
 
 ### 提供好的toString实现可以使类用起来更加舒适
+
 ### toString方法应该返回对象中包含的所有值得关注的信息
