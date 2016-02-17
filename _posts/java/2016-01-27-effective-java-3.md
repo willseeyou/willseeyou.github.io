@@ -2,7 +2,7 @@
 layout: post
 title:  "Effective Java 第三条：用私有构造器或者枚举类型强化Singleton属性"
 date:   2016-01-27 09:27:00 +0800
-categories: effective java
+categories: effective-java
 ---
 ### Singleton指仅仅被实例化一次的类
 

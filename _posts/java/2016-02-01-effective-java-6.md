@@ -2,7 +2,7 @@
 layout: post
 title:  "Effective Java 第六条：消除过期的对象引用"
 date:   2016-02-01 14:32:00 +0800
-categories: effective java
+categories: effective-java
 ---
 ### 内存泄漏
 

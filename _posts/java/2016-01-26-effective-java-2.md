@@ -2,7 +2,7 @@
 layout: post
 title: "Effective Java 第二条：遇到多个构造器参数时要考虑用构建器"
 date: 2016-01-26 10:57:00 +0800
-categories: effective java
+categories: effective-java
 ---
 ### 静态工厂和构造器共同的局限性
 `不能很好地扩展到大量的可选参数`<br>

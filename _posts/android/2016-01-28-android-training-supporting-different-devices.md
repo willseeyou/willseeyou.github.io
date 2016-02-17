@@ -2,7 +2,7 @@
 layout: post
 title:  "Android Training: 支持不同的设备"
 date:   2016-01-28 15:28:00 +0800
-categories: android training
+categories: android-training
 ---
 
 ### 支持不同的语言

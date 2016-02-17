@@ -2,7 +2,7 @@
 layout: post
 title: "死锁"
 date: 2016-02-03 14:16:00 +0800
-categories: operating system
+categories: operating-system
 ---
 ### 产生死锁的原因
 * 系统资源不足

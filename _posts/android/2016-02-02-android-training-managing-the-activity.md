@@ -2,7 +2,7 @@
 layout: post
 title:  "Android Training: 管理Activity的生命周期"
 date:   2016-02-02 15:40:00 +0800
-categories: android training
+categories: android-training
 ---
 ### 启动与销毁Activity
 ![Basic LifeCycle of Activity](/images/manage-activity/basic-lifecycle.png)

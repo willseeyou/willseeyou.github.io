@@ -2,7 +2,7 @@
 layout: post
 title: "Oracle: ORA-28001: The password has expired"
 date: 2016-02-15 09:12:00 +0800
-categories: Oracle
+categories: oracle
 ---
 ### ORA-28001: The password has expired
 ![Oracle ORA-28001](/images/oracle-error/ora-28001_error.png)

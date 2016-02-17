@@ -2,7 +2,7 @@
 layout: post
 title:  "Effective Java 第一条：考虑用静态工厂方法替代构造器"
 date:   2016-01-25 15:48:27 +0800
-categories: effective java
+categories: effective-java
 ---
 ### 获取`Class`实例的常用方法：
 

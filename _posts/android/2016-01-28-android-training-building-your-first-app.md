@@ -2,7 +2,7 @@
 layout: post
 title:  "Android Training: 创建第一个APP"
 date:   2016-01-28 10:23:00 +0800
-categories: android training
+categories: android-training
 ---
 
 ### 搭建环境

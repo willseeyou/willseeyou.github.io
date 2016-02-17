@@ -2,7 +2,7 @@
 layout: post
 title: "Effective Java: 第十条：始终要覆盖toString"
 date: 2016-02-17 09:10:00 +0800
-categories: effective java
+categories: effective-java
 ---
 ### toString通用约定
 * 简洁的，但信息丰富，并且易于阅读的表达形式

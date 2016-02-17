@@ -2,7 +2,7 @@
 layout: post
 title:  "Effective Java 第八条：覆盖equals时请遵守通用约定"
 date:   2016-02-03 14:16:00 +0800
-categories: effective java
+categories: effective-java
 ---
 Object所有的非final方法都有明确的通用约定（general contract）<br>
 `equals` `hashCode` `toString` `clone` `finalize`

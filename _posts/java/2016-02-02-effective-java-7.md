@@ -2,7 +2,7 @@
 layout: post
 title:  "Effective Java 第七条：避免使用终结方法"
 date:   2016-02-02 09:45:27 +0800
-categories: effective java
+categories: effective-java
 ---
 * 终结方法（finilizer）通常是：`不可预测的` `危险的` `一般情况下是不必要的`
 * 终结方法的缺点：`不保证被及时执行`

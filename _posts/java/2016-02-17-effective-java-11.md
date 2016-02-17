@@ -2,7 +2,7 @@
 layout: post
 title: "Effective Java: 第11条：谨慎地覆盖clone"
 date: 2016-02-17 09:36:00 +0800
-categories: effective java
+categories: effective-java
 ---
 ### Cloneable接口的作用
 * 如果一个类实现了Cloneable，Object的clone方法就返回该对象的逐域拷贝，否则就抛出CloneNotSupportedException
