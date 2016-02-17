@@ -6,10 +6,10 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: My Learning Website
+title: Hong wei Chu's Github pages
 email: hongweichu.ouc@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-    It is the website for me to record the things that I've learned.
+    It is no use doing what you like, you have got to like what you do.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://willseeyou.github.io" # the base hostname & protocol for your site
 github_username: willseeyou
