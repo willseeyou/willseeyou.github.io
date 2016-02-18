@@ -41,14 +41,12 @@ http://localhost:8080/greeting?name=User
 
 `spring-boot-starter-parent features`:
 
-~~~
-默认编译级别为`Java 1.6`
-编码格式为`UTF-8`
-`Dependency Management`，忽略`<version>`标签，继承自spring-boot-denepdencies
-Sensible [resource filtering](https://docs.spring.io/spring-boot/docs/current/reference/html/using-boot-build-systems.html)
-Sensible plugin configuration
-Sensible resource filtering for `application.properties` and `application.yml`
-~~~
+* 默认编译级别为`Java 1.6`
+* 编码格式为`UTF-8`
+* `Dependency Management`，忽略`<version>`标签，继承自spring-boot-denepdencies
+* Sensible [resource filtering](https://docs.spring.io/spring-boot/docs/current/reference/html/using-boot-build-systems.html)
+* Sensible plugin configuration
+* Sensible resource filtering for `application.properties` and `application.yml`
 
 #### 添加spring-boot-maven-plugin:
 
@@ -64,12 +62,9 @@ Sensible resource filtering for `application.properties` and `application.yml`
 ~~~
 
 `Spring Boot Maven Plugin features`:
-
-~~~
 1. 将classpath下的所有jar包打进一个可执行über-jar
 2. 搜索 public static void main()并把它标记为runnable classpath
 3. 设置默认依赖版本号
-~~~
 
 #### 创建Greeting POJO类
 
