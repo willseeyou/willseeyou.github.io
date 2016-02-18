@@ -62,6 +62,7 @@ http://localhost:8080/greeting?name=User
 ~~~
 
 `Spring Boot Maven Plugin features`:
+
 1. 将classpath下的所有jar包打进一个可执行über-jar
 2. 搜索 public static void main()并把它标记为runnable classpath
 3. 设置默认依赖版本号
