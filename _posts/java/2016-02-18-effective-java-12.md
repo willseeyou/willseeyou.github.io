@@ -28,9 +28,9 @@ public class WordList {
 
 ### compareTo方法通用约定
 `将这个对象与指定的对象进行比较。当该对象小于、等于或大于指定对象的时候，分别返回一个负整数、零或者正整数。如果由于指定对象的类型而无法与该对象进行比较，则抛出ClassCastException异常`<br>
-* `对称性：`实现者必须确保所有的x和y都满足`sgn(x.compareTo(y)) == -sgn(y.compareTo(x))`。
-* `传递性：`实现者还必须确保这个比较关系是`可传递的`：`(x.compareTo(y) > 0 && y.compareTo(z) > 0)`暗示着`x.compareTo(z) > 0`。
-* `一致性：`实现者必须确保`x.compareTo(y)==0`暗示着所有的z都满足`sgn(x.compareTo(z)) == sgn(y.compareTo(z))`。
+* `对称性：`实现者必须确保所有的x和y都满足`sgn(x.compareTo(y)) == -sgn(y.compareTo(x))`。<br>
+* `传递性：`实现者还必须确保这个比较关系是`可传递的`：`(x.compareTo(y) > 0 && y.compareTo(z) > 0)`暗示着`x.compareTo(z) > 0`。<br>
+* `一致性：`实现者必须确保`x.compareTo(y)==0`暗示着所有的z都满足`sgn(x.compareTo(z)) == sgn(y.compareTo(z))`。<br>
 * 强烈建议`(x.compareTo(y) == 0) == (x.equals(y))`。一般来说，任何实现了Comparable接口的类，若违反了这个条件，都应该明确予以说明。
 
 ~~~java
