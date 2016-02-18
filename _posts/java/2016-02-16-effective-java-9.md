@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Effective Java: 第九条：覆盖equals时总要覆盖hashCode"
+title: "Effective Java 第九条：覆盖equals时总要覆盖hashCode"
 date: 2016-02-16 09:34:00 +0800
 categories: effective-java
 ---

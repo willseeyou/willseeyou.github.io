@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Effective Java: 第12条：考虑实现Comparable接口"
+title: "Effective Java 第12条：考虑实现Comparable接口"
 date: 2016-02-18 09:43:00 +0800
 categories: effective-java
 ---

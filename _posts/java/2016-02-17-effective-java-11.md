@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Effective Java: 第11条：谨慎地覆盖clone"
+title: "Effective Java 第11条：谨慎地覆盖clone"
 date: 2016-02-17 09:36:00 +0800
 categories: effective-java
 ---
