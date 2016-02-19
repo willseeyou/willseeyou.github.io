@@ -81,4 +81,4 @@ public boolean equals(Object obj) {
 ~~~
 
 # References
-[JDK源码分析：java.lang.Boolean](http://www.liaoxuefeng.com/article/0013738760210200c0b2b12da1c470a8d771dc7f218e89d000)
+* [JDK源码分析：java.lang.Boolean](http://www.liaoxuefeng.com/article/0013738760210200c0b2b12da1c470a8d771dc7f218e89d000)
