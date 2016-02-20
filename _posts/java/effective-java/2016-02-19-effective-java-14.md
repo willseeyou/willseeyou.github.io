@@ -4,7 +4,7 @@ title: "Effective Java 第14条：在公有类中使用访问方法而非公有�
 date: 2016-02-19 14:17:00 +0800
 categories: effective-java
 ---
-### 退化类(Degenerate classes):没有什么作用，只是用来集中实例域
+### 退化类(Degenerate classes): 没有什么作用，只是用来集中实例域
 
 ~~~java
 // Degenerate classes like this should not be public!
