@@ -16,12 +16,14 @@ public final class Boolean implements java.io.Serializable,
 
 #### Boolean对象是不可变的
 当满足以下条件时，对象才是可变的：
+
 * 对象创建以后其状态就不能修改
 * 对象的所有域都是final类型
 * 对象是正确创建的（在对象的创建期间，this引用没有逸出）
 
 
 #### 两个静态变量
+
 * 不用每次都new一个Boolean
 * 节省内存
 * 避免创建实例的开销
