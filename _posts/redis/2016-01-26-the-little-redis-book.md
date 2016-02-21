@@ -7,7 +7,7 @@ categories: redis
 
 [The Little Redis Book](http://openmymind.net/redis.pdf) by Karl Seguin
 
-* Nothing will help you understand Redis more than actually experiencing it.
+* Nothing will help you understand Redis more than actually experiencing it
 
 * The latest version of Redis: [Get Latest Redis](http://redis.io/download)
 
