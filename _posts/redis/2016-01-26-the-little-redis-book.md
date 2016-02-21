@@ -21,17 +21,17 @@ make
 * Start Redis Server:  `./redis-server`
 * Start Redis Console: `./redis-cli`
 
-* Redis is much more than a simple key-value store.
+* Redis is much more than a simple key-value store
 
 ### Redis exposes five data structures
 `Strings` `Lists` `Sets` `Hashes` `Sorted sets`
 
-### Keys are how you identify pieces of data.
-* Using separator is a common approach people use to organize their keys.<br>
+### Keys are how you identify pieces of data
+* Using separator is a common approach people use to organize their keys<br>
 `users:hongwei`
 
-### Values represent the actual data associated with the key.
-* Redis treats values as a `byte array` and doesn't care what they are.
+### Values represent the actual data associated with the key
+* Redis treats values as a `byte array` and doesn't care what they are
 
 ~~~shell
 set users:hongwei '{"name":"hongwei", "planet":"earth","likes":["eating"]}'
