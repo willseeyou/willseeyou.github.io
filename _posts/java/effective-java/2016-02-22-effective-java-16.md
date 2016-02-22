@@ -40,6 +40,17 @@ public class InstrumentedHashSet<E> extends HashSet<E> {
 }
 ~~~
 
+~~~java
+// HashSet addAll实现
+public boolean addAll(Collection<? extends E> c) {
+  boolean modified = false;
+  for (E e : c)
+    if (add(e)) // addAll基于add实现
+      modified = true;
+    return modified;
+}
+~~~
+
 * 在HashSet内部，addAll的方法基于add方法实现
 * overriding: 扩展类时，如果只增加新的方法，而不覆盖现有的方法，也有可能出现问题：子类和超类存在签名相同但返回类型不同的方法
 
