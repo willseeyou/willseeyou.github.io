@@ -58,3 +58,5 @@ Map<String, List<String>> m = HashMap.newInstance();
 `newInstance`
 `getType`
 `newType`
+
+[Code References](https://github.com/willseeyou/effective-java-examples/tree/master/src/main/java/org/effectivejava/examples/chapter02/item01)
