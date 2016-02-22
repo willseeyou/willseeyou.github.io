@@ -116,3 +116,5 @@ Set<E> s2 = new InstrumentedSet<E>(new HashSet<E>(capacity));
 * Properties -> Hashtable
 
 ### 正扩展的类API有无缺陷
+
+[Code Reference](https://github.com/willseeyou/effective-java-examples/tree/master/src/main/java/org/effectivejava/examples/chapter04/item16)
