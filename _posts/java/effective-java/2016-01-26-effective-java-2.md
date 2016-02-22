@@ -31,3 +31,5 @@ public interface Builder<T> {
 `为了创建对象，必须先创建它的构造器，有时会面临性能问题`
 
 ### 如果类的构造器或者静态工厂中有多个参数，使用Builder模式
+
+[Code Reference](https://github.com/willseeyou/effective-java-examples/tree/master/src/main/java/org/effectivejava/examples/chapter02/item02)
