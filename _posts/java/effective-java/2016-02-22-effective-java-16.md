@@ -52,7 +52,7 @@ public boolean addAll(Collection<? extends E> c) {
 ~~~
 
 * 在HashSet内部，addAll的方法基于add方法实现
-* overriding: 扩展类时，如果只增加新的方法，而不覆盖现有的方法，也有可能出现问题：子类和超类存在签名相同但返回类型不同的方法
+* override: 扩展类时，如果只增加新的方法，而不覆盖现有的方法，也有可能出现问题：子类和超类存在签名相同但返回类型不同的方法
 
 ### 不扩展现有类，而是在新类中增加一个私有域，它引用现有类的一个实例
 * 转发方法（forwarding method）
