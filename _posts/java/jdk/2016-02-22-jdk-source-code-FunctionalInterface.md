@@ -24,7 +24,7 @@ from superinterfaces; in this case, the inherited methods logically represent a 
 method.)
 ~~~
 
-* Single Abstract Method Interfaces(SAM Interfaces): 表达逻辑上的单一功能约定
+* 单抽象方法接口Single Abstract Method Interfaces(SAM Interfaces): 表达逻辑上的单一功能约定
 
 * java.lang.Runnable是函数式接口，只有一个抽象方法
 
