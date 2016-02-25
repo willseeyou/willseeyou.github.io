@@ -74,6 +74,7 @@ public void onDestroy() {
 ![basic-lifecycle-paused](/images/manage-activity/basic-lifecycle-paused.png)
 
 onPause应该做的事：
+
 * 停止动画或者其他正在进行的操作
 * 提交在用户离开时期待保存的内容（邮件草稿）
 * 释放系统资源，如broadcast receiver, sensors，或其他影响电量的资源
@@ -92,6 +93,7 @@ public void onPause() {
 ~~~
 
 onPause不应该做的事：
+
 * CPU-intensive:写数据到DB，需要放到onStop()中做
 * 保存用户改变的数据到永久存储中
 
@@ -110,6 +112,7 @@ public void onResume() {
 
 ### 停止与重启Activity
 使用场合：
+
 * 通过最近使用App菜单打开另外一个app，然后通过主界面启动图标或最近使用App回到我们的app，activity会重启
 * 在app中启动一个新的Activity，在新的activity点击Back按钮，第一个activity会重启
 * 使用app过程中接到来电
