@@ -35,7 +35,7 @@ ALTER USER user_name ACCOUNT UNLOCK;
 * Make sure user not locked any more:
 
 ~~~
-SEELCT USERNAME, ACCOUNT_STATUS FROM DBA_USERS;
+SELECT USERNAME, ACCOUNT_STATUS FROM DBA_USERS;
 ~~~
 
 [Reference: ORA-28001: The password has expired](https://hecpv.wordpress.com/2014/10/16/how-to-solve-ora-28001-the-password-has-expired/)<br>
