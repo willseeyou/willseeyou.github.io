@@ -8,6 +8,20 @@ categories: jdk
 
 ~~~java
 public interface Collection<E> extends Iterable<E> {
-  
+
+}
+~~~
+
+~~~java
+public interface Iterable<T> {
+  Iterator<T> iterator();
+
+  default forEach(Consumer<? super T> action) {
+    ...
+  }
+
+  default Spliterator<T> spliterator() {
+    ...
+  }
 }
 ~~~
