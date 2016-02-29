@@ -16,6 +16,6 @@ try {
   // Do what must be down with foo
   ...
 } finally {
-  foo.terminate(); //Explicite termination method
+  foo.terminate(); //Explicit termination method
 }
 ~~~
