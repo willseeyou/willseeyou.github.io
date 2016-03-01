@@ -25,3 +25,18 @@ public interface Iterable<T> {
   }
 }
 ~~~
+
+~~~java
+public interface Iterator<E> {
+  boolean hasNext();
+  E next();
+
+  default void remove() {
+    ...
+  }
+
+  default void forEachRemaining(Consumer<? super E> action) {
+    ...
+  }
+}
+~~~
