@@ -36,3 +36,23 @@ public class Solution {
     }
 }
 ~~~
+
+### HashMap实现：时间复杂度O(n)
+
+~~~java
+public class Solution {
+  public int[] twoSum(int[] nums, int target) {
+    int[] ans = null;
+    Map<Integer, Integer> maps = new HashMap<>();
+    for (int i = 0; i < nums.length; i++) {
+      Integer index = maps.get(target - nums[i]);
+      if (index == null) {
+        maps.put(nums[i], i);
+      } else {
+        ans = new int[] {index, i};
+      }
+    }
+    return ans;
+  }
+}
+~~~
