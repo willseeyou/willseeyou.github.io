@@ -12,6 +12,7 @@ categories: effective-java
 * 继承破坏了封装性带来的不幸后果（描述清楚有可能未定义的实现细节）
 * 对于为了继承而设计的类，唯一的测试方法就是编写子类
 * 构造器决不能调用可被覆盖的方法
+* 无论是clone还是readObject，都不可以调用可覆盖的方法
 
 ~~~java
 public class Super {
