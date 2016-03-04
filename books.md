@@ -1,12 +1,7 @@
 ---
 layout: page
-title: books
+title: Books
 permalink: /books/
 ---
-<table>
-  <tr>
-    <td>
-      ![effective-java](/images/books/effective-java.png)
-    </td>
-  </tr>
-</table>
+
+![effective-java](/images/books/effective-java.png)
