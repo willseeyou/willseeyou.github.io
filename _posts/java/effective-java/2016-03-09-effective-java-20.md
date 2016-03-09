@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Effective Java 第20条：类层次优于标签类"
-date: 2016-03-09 10:10:00 +-800
+date: 2016-03-09 10:10:00 +0800
 categories: effective-java
 ---
 
