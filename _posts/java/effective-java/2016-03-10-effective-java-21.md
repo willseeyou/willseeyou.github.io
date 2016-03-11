@@ -20,7 +20,7 @@ class StringLengthComparator {
 * 客户端无法传递任何其他的策略
 
 ```java
-// Strategy interface
+// strategy interface
 public interface Comparator<T> {
   public int compare(T t1, T t2);
 }
