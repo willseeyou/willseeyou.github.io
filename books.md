@@ -12,3 +12,4 @@ permalink: /books/
 [![introduction-to-algorithms](/images/books/introduction-to-algorithms.png)](https://book.douban.com/subject/1885170/)
 [![code-complete](/images/books/code-complete.png)](https://book.douban.com/subject/1951158/)
 [![hard-code](/images/books/hard-code.png)](https://book.douban.com/subject/24284853/)
+[![head-first-design-pattern](/images/books/head-first-design-pattern.png)](https://book.douban.com/subject/2243615/)
