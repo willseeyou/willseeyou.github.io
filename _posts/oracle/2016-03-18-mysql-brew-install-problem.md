@@ -24,6 +24,6 @@ Could not open unix socket lock file /tmp/mysql.sock.lock.
 
 正常情况下，在/tmp目录下应该不会出现/tmp/mysql.sock.lock文件。我使用brew uninstall mysql卸载掉mysql，同时删除/tmp目录下的mysql.sock和mysql.sock.lock两个文件，重新安装mysql，结果一切正常。
 
-**Tip: **
+### Tip:
 * brew remove mysql 卸载当前版本
 * brew uninstall mysql 卸载全部版本
