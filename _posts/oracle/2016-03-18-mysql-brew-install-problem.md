@@ -6,6 +6,7 @@ categories: mysql
 ---
 ### brew安装mysql问题
 通过brew 安装mysql时遇到了问题，问题场景如下：
+
 在海尔不稳定的网络环境下，使用武老师的bootstrap.sh脚本安装开发环境经常出现timeout的情况，由于不想再单独去安装由于timeout失败的组件，所有多次重复运行bootstrap.sh脚本。我`猜测有可能`是在这种情况下，多次运行了brew install mysql，导致在使用mysql.server start启动mysql时，报出
 
 ```
