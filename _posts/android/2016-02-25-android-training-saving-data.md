@@ -13,7 +13,7 @@ categories: android-training
 ~~~java
 // getSharedPreferences
 Context context = getActivity();
-SharedPreferences ahredPref = context.getSharedPreferences(getString(R.string.preference_file_key),
+SharedPreferences sharedPref = context.getSharedPreferences(getString(R.string.preference_file_key),
   Context.MODE_PRIVATE);
 
 // getPreferences
