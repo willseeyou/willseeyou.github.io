@@ -15,3 +15,4 @@ permalink: /books/
 [![head-first-design-pattern](/images/books/head-first-design-pattern.png)](https://book.douban.com/subject/2243615/)
 
 [![deep-in-jvm](/images/books/deep-in-jvm.png)](https://book.douban.com/subject/24722612/)
+[![java-performance](/images/books/java-performance.png)](http://book.douban.com/subject/25828043/)
