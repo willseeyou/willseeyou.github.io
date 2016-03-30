@@ -3,7 +3,6 @@ layout: page
 title: Books
 permalink: /books/
 ---
-
 [![effective-java](/images/books/effective-java.png)](https://book.douban.com/subject/3360807/)
 [![thinking-in-java](/images/books/thinking-in-java.png)](https://book.douban.com/subject/2130190/)
 [![agile-software-development](/images/books/agile-software-development.png)](https://book.douban.com/subject/1140457/)
