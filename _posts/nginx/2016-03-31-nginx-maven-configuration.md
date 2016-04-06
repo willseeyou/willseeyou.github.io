@@ -151,7 +151,7 @@ server {
 
 旧库迁移其实非常简单，只需要将旧的库文件拷贝到新库对应位置，然后repair index就可以了。如：
 
-将旧库的“$NEXUS_HOME/sonatype-work/nexus/storage/releases”文件夹覆盖到新库的“$NEXUS_HOME/sonatype-work/nexus/storage/releases”，然后“repair index”（需要花费一点时间），就可以了。
+将旧库的`$NEXUS_HOME/sonatype-work/nexus/storage/releases`文件夹覆盖到新库的`$NEXUS_HOME/sonatype-work/nexus/storage/releases`，然后`repair index`（需要花费一点时间），就可以了。
 
 
 在deploy haier-link依赖包的时候被狠狠坑了一把。
