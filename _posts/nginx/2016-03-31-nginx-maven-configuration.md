@@ -153,7 +153,7 @@ server {
 
 将旧库的“$NEXUS_HOME/sonatype-work/nexus/storage/releases”文件夹覆盖到新库的“$NEXUS_HOME/sonatype-work/nexus/storage/releases”，然后“repair index”（需要花费一点时间），就可以了。
 
-<hr>
+
 在deploy haier-link依赖包的时候被狠狠坑了一把。
 我仅仅是把相关的jar包deploy到了Nexus中，忽略了pom文件。。。因为以前处理的大部分jar包的pom文件都是通过deploy命令由Nexus自动生成的，但是我们工程中大部分的基础依赖包都有各自的pom文件。
 由于我忽略了这些文件，所以导致怎么都编译不过，只得一个一个解决。。。
