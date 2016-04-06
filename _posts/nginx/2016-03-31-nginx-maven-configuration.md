@@ -32,6 +32,7 @@ categories: nginx Maven
 
 ### 3. Nginx安装
 在有外网访问权限的情况下，安装nginx非常简单：
+
 * 添加网易[yum源](http://mirrors.163.com/.help/centos.html)
 
 ```
