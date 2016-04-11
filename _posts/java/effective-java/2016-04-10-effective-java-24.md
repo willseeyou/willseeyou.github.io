@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Effective Java 第24条：消除非受检警告"
-date: 2016-04-09 22:50:00 +0800
+date: 2016-04-10 22:50:00 +0800
 categories: effective-java
 ---
 ### 编译器警告

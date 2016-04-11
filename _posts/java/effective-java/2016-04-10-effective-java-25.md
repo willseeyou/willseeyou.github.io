@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Effective Java 第25条：列表优先于数组"
-date: 2016-04-09 23:00:00 +0800
+date: 2016-04-10 23:00:00 +0800
 categories: effective-java
 ---
 ### 数组与泛型的不同点
