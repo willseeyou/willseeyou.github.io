@@ -18,7 +18,7 @@ Error in startup script: unknown color name "lime"
 ```
 
 ### Solution
-* brew cast install tcl
+* brew cask install tcl
 
 ### Reference
 * [gitk-not-work-on-mac](http://stackoverflow.com/questions/34637896/gitk-will-not-start-on-mac-unknown-color-name-lime)
