@@ -9,7 +9,11 @@ categories: git
 
 ```
 prune
-Deletes all stale remote-tracking branches under <name>. These stale branches have already been removed from the remote repository referenced by <name>, but are still locally available in "remotes/<name>".
+Deletes all stale remote-tracking branches under <name>.
+These stale branches have already been removed from the
+remote repository referenced by <name>, but are still
+locally available in "remotes/<name>".
 
-With --dry-run option, report what branches will be pruned, but do not actually prune them.
+With --dry-run option, report what branches will be pruned,
+but do not actually prune them.
 ```
