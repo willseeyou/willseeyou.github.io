@@ -6,3 +6,6 @@ categories: Maven
 ---
 
 ### ${basedir} 代表包含pom.xml的目录
+
+#### References
+[Maven-Getting Started](https://maven.apache.org/guides/getting-started/)
