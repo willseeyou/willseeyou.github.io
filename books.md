@@ -15,3 +15,4 @@ permalink: /books/
 
 [![deep-in-jvm](/images/books/deep-in-jvm.png)](https://book.douban.com/subject/24722612/)
 [![java-performance](/images/books/java-performance.png)](http://book.douban.com/subject/25828043/)
+[![maven-in-action](/images/books/maven-in-action.png)](https://book.douban.com/subject/5345682/)
