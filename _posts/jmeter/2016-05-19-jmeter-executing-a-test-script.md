@@ -6,6 +6,12 @@ category: JMeter
 ---
 ### JMeter测试脚本有两种运行方式
 * GUI Mode:
-> /Users/will/apache-jmeter-3.0/bin/jmeter
+
+```
+/Users/will/apache-jmeter-3.0/bin/jmeter
+```
 * Non-GUI Mode:
-> /Users/will/apache-jmeter-3.0/bin/jmeter -n -t [path to test script] -l [path to results files]
+
+```
+/Users/will/apache-jmeter-3.0/bin/jmeter -n -t [path to test script] -l [path to results files]
+```
