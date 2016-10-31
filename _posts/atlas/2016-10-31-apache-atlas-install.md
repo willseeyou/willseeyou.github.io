@@ -4,9 +4,6 @@ title: "Apache Atlas安装使用说明文档"
 date: 2016-10-31 15:47:00 +0800
 categories: atlas
 ---
-
-# Apache Atlas安装使用说明文档
--
 ### 简介
 Apache Atlas是Apache基金会的孵化项目，是Hadoop生态圈的数据治理和元数据框架（Data Governance and Metadata framework）。Atlas是一套核心基础治理服务的集合，有很好的伸缩性和可扩展性，能够满足企业对Hadoop生态系统的多样性需求，并能和企业的数据生态系统集成。
 
