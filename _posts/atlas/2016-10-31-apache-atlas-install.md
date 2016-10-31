@@ -35,6 +35,7 @@ git clone https://git-wip-us.apache.org/repos/asf/incubator-atlas.git atlas
 cd atlas
 export MAVEN_OPTS="-Xmx1536m -XX:MaxPermSize=512m" && mvn clean install
 ```
+
 ##### Atlas使用的数据库和搜索有两种方案
 1. HBase + Solr
 2. BerkeleyDB + ElasticSearch
@@ -96,6 +97,7 @@ mvn clean package -Pdist,embedded-hbase-solr
 tar zxvf apache-atlas-${project.version}-bin.tar.gz
 cd atlas-${project.version}
 ```
+
 ##### 配置Atlas
 * 打开conf/atlas-application.properties，将***atlas.kafka.zookeeper.connect***改为localhost:2181
 
@@ -121,6 +123,7 @@ cd solr/bin
 ./solr create -c edge_index -d SOLR_CONF
 ./solr create -c fulltext_index -d SOLR_CONF
 ```
+
 ##### 启动Atlas
 
 ```bash
