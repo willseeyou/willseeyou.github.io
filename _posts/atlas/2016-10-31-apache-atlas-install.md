@@ -23,6 +23,7 @@ Apache Atlas是Apache基金会的孵化项目，是Hadoop生态圈的数据治�
 
 ### 安装(Standalone)
 目前[Atlas官网](atlas.incubator.apache.org)没有可下载的包，如果要安装Atlas，必须下载源码。
+
 #### 安装前置条件
 * JDK 1.7及以上
 * Maven 3.3.9
