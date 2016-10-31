@@ -24,3 +24,5 @@ categories: linux
 ![network-management-gui.png](/images/linux/network-management-gui.png)
 ![ethernet-choose.png](/images/linux/ethernet-choose.png)
 ![auto-connect.png](/images/linux/autoconnect.png)
+
+***如果ifconfig command not found，则使用`yum install net-tools`安装***
