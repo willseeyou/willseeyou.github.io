@@ -75,7 +75,10 @@ chmod 0600 ~/.ssh/authorized_keys
 ```
 
 ### Execution
+
 在本地运行一个MapReduce Job:
+
+```
 1. bin/hdfs namenode -format  # 初始化文件系统
 2. sbin/start-dfs.sh          # 启动NameNode daemon和DataNode daemon
 3. 访问http://localhost:9870，查看NameNode的web接口
@@ -87,3 +90,4 @@ chmod 0600 ~/.ssh/authorized_keys
 9. bin/hdfs dfs -get output output
 10. cat output/\*
 11. sbin/stop-dfs.sh
+```
