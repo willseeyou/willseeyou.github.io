@@ -31,7 +31,7 @@ export HISTSIZE=10000
 export HISTFILESIZE=10000
 ```
 
-### Referecens
+### References
 
 [Logging ssh remote commands to bash_history](https://unix.stackexchange.com/questions/122649/logging-ssh-remote-commands-to-bash-history)<br>
 [7 Tips – Tuning Command Line History in Bash](https://www.shellhacks.com/tune-command-line-history-bash/)
