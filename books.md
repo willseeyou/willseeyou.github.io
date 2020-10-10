@@ -19,3 +19,4 @@ permalink: /books/
 [![hadoop-the-definitive-guide-4th-edition](/images/books/hadoop-the-definitive-guide-4th-edition.jpg)](https://book.douban.com/subject/27115351/)
 
 [![docker-in-practice](/images/books/docker-in-practice.jpg)](https://book.douban.com/subject/30129408/)
+[![redis-design-and-implementation](/images/books/redis-design-and-implementation.jpg)](https://book.douban.com/subject/25900156/)
