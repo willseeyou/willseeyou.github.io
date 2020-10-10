@@ -17,3 +17,5 @@ permalink: /books/
 [![java-performance](/images/books/java-performance.png)](http://book.douban.com/subject/25828043/)
 [![maven-in-action](/images/books/maven-in-action.png)](https://book.douban.com/subject/5345682/)
 [![hadoop-the-definitive-guide-4th-edition](/images/books/hadoop-the-definitive-guide-4th-edition.jpg)](https://book.douban.com/subject/27115351/)
+
+[![docker-in-practice](/images/books/docker-in-practice.jpg)](https://book.douban.com/subject/30129408/)
