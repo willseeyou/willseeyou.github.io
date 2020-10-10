@@ -22,3 +22,5 @@ permalink: /books/
 [![redis-design-and-implementation](/images/books/redis-design-and-implementation.jpg)](https://book.douban.com/subject/25900156/)
 [![practical-vim-2nd-edition](/images/books/practical-vim-2nd-edition.jpg)](https://book.douban.com/subject/26967597/)
 [![mastering-nginx-2nd-edition](/images/books/mastering-nginx-2nd-edition.jpg)](https://book.douban.com/subject/27113382/)
+
+[![kubernetes-the-definitive-guide-4th-edition](/images/books/kubernetes-the-definitive-guide-4th-edition.jpg)](https://book.douban.com/subject/33444476/)
