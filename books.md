@@ -20,3 +20,4 @@ permalink: /books/
 
 [![docker-in-practice](/images/books/docker-in-practice.jpg)](https://book.douban.com/subject/30129408/)
 [![redis-design-and-implementation](/images/books/redis-design-and-implementation.jpg)](https://book.douban.com/subject/25900156/)
+[![practical-vim-2nd-edition](/images/books/practical-vim-2nd-edition.jpg)](https://book.douban.com/subject/26967597/)
